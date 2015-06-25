@@ -2,7 +2,7 @@
 title: ChicagoRuby Demo - Getting Started With Jekyll
 email: contact@chicagoruby.org
 description: Getting started with Jekyll.
-baseurl: 'chiruby_demo'
+baseurl: '/chiruby_demo'
 url: "http://bobbyreys.github.io/chiruby_demo/" # the base hostname & protocol for your site
 twitter_username: chicagoruby
 paginate: 3
