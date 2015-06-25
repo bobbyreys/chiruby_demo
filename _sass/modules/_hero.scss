@@ -1,0 +1,12 @@
+// ==========================================================================
+// Hero
+// ==========================================================================
+
+.hero {
+	height: 525px;
+	background: url('#{$path--rel}/photo.jpg');
+	background-blend-mode: multiply;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: em(50px);
+}

@@ -1,0 +1,34 @@
+# Site settings
+title: ChicagoRuby Demo - Getting Started With Jekyll
+email: contact@chicagoruby.org
+description: Getting started with Jekyll.
+url: "http://chicagoruby.org" # the base hostname & protocol for your site
+twitter_username: chicagoruby
+paginate: 3
+
+# Build settings
+markdown: kramdown
+permalink: /:title
+
+#Default settings
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      author: ChicagoRuby
+      layout: "post"
+      category: tech
+      comments: true
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "page"
+
+
+
+
+
